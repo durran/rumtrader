@@ -19,11 +19,20 @@ body {
   color: #FFFFFF;
 }
 
+div.box {
+  padding: 20px;
+  font-size: 1.25vh;
+}
+
 div.info {
   background-color: #000000;
   padding: 20px;
   position: absolute;
   top: 70%;
+}
+
+div.impressum p {
+  padding: 10px;
 }
 
 p.hours {
@@ -35,4 +44,8 @@ div.photo {
   font-size: 1.25vh;
   position: absolute;
   right: 5%;
+}
+
+a {
+  color: white;
 }
